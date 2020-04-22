@@ -1,12 +1,51 @@
+body{
+    width: 100%;
+
+}
+
 header{
     background-color: royalblue;
     color: white;
     padding: 10px;
-    border-bottom: skyblue;
+    border-bottom: solid skyblue;
 
 }
-
-.dogs img{
-    size: 25%;
-    margin: 10px;
+.tags{
+    display: inline-block;
+    background-color: cornflowerblue;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
 }
+
+.beans{
+    display: inline-block;
+    width: 33%;
+}
+.beans img{
+    height: 30%;
+    width: 30%;
+}
+
+.zelda{
+    display: inline-block;
+    width: 33%;
+}
+
+.zelda img{
+    height: 30%;
+    width: 30%;
+}
+
+.baby{
+    display: inline-block;
+    width: 33%;
+}
+.baby img{
+    height: 30%;
+    width: 30%;
+}
+
+
+
+
