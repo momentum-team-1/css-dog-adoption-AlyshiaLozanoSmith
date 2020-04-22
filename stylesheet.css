@@ -23,8 +23,8 @@ header{
     width: 33%;
 }
 .beans img{
-    height: 30%;
-    width: 30%;
+    height: 100%;
+    width: 100%;
 }
 
 .zelda{
@@ -33,8 +33,8 @@ header{
 }
 
 .zelda img{
-    height: 30%;
-    width: 30%;
+    height: 100%;
+    width: 100%;
 }
 
 .baby{
@@ -42,8 +42,8 @@ header{
     width: 33%;
 }
 .baby img{
-    height: 30%;
-    width: 30%;
+    height: 100%;
+    width: 100%;
 }
 
 
