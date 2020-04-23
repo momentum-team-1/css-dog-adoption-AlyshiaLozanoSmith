@@ -11,26 +11,50 @@ header{
     font-family: 'Oswald', sans-serif;
 
 }
+
+.traits{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .tags{
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     background-color: cornflowerblue;
     padding: 5px;
     border-radius: 10px;
-    margin: 5px;
+    align-items: flex-start;
+   
 }
 
-.dog {
-    display: inline-block;
-    width: 33%;
+.adoptions{
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 20px;
 }
+
+
+.dog {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 32%;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
 .dog img{
-    height: 100%;
+    
     width: 100%;
 }
 
 .donate-banner{
-    display: inline-block;
+    display: flex;
+    flex-flow: wrap;
+    flex: 1;
     background-image: url(starter_files/images/donate.jpg);
     opacity: 0.6;
     width: 33%;
@@ -42,7 +66,9 @@ header{
     text-align: center;
 }
 .volunteer-banner{
-    display: inline-block;
+    display: flex;
+    flex-flow: wrap;
+    flex:1;
     background-image: url(starter_files/images/volunteer.jpg);
     opacity: 0.6;
     width: 33%;
@@ -54,11 +80,16 @@ header{
 } 
 
 .our-location{
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
     background-image: url(starter_files/images/location.png);
     width: 33%;
     height: 100%;
     opacity: 0.6;
+    flex: 1;
+
 }
 .our-location p{
     opacity: 1;
@@ -67,6 +98,10 @@ header{
 footer{
     height: 300px;
     background-color: mediumpurple;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 
