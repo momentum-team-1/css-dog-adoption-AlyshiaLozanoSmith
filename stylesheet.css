@@ -55,6 +55,9 @@ header{
     display: flex;
     flex-flow: wrap;
     flex: 1;
+    align-items: center;
+    background-size: contain;
+    justify-content: center;
     background-image: url(starter_files/images/donate.jpg);
     opacity: 0.6;
     width: 33%;
@@ -63,12 +66,15 @@ header{
 }
 .donate-banner p{
     opacity: 1;
+    color: white;
     text-align: center;
 }
 .volunteer-banner{
     display: flex;
     flex-flow: wrap;
     flex:1;
+    align-items: center;
+    justify-content: center;
     background-image: url(starter_files/images/volunteer.jpg);
     opacity: 0.6;
     width: 33%;
@@ -77,6 +83,7 @@ header{
 .volunteer-banner p{
     opacity: 1;
     text-align: center;
+    color: white;
 } 
 
 .our-location{
@@ -89,10 +96,12 @@ header{
     height: 100%;
     opacity: 0.6;
     flex: 1;
+    
 
 }
 .our-location p{
     opacity: 1;
+    color: white;
     text-align: center;
 }
 footer{
