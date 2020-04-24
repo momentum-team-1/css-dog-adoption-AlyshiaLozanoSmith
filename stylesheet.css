@@ -56,57 +56,59 @@ header{
     flex-flow: wrap;
     flex: 1;
     align-items: center;
-    background-size: contain;
+    background-size: cover;
     justify-content: center;
-    background-image: url(starter_files/images/donate.jpg);
-    opacity: 0.6;
+    background-image:
+    linear-gradient(
+      rgba(68, 0, 255, 0.404),
+      rgba(68, 0, 255, 0.404)
+    ),
+     url(starter_files/images/donate.jpg);
     width: 33%;
     height: 100%;
+    color: white;
 
 }
-.donate-banner p{
-    opacity: 1;
-    color: white;
-    text-align: center;
-}
+
 .volunteer-banner{
     display: flex;
     flex-flow: wrap;
     flex:1;
     align-items: center;
     justify-content: center;
-    background-image: url(starter_files/images/volunteer.jpg);
-    opacity: 0.6;
+    background-image:
+    linear-gradient(
+        rgba(68, 0, 255, 0.404),
+        rgba(68, 0, 255, 0.404)
+      ),
+     url(starter_files/images/volunteer.jpg);
+    
     width: 33%;
     height: 100%;
-}
-.volunteer-banner p{
-    opacity: 1;
-    text-align: center;
     color: white;
-} 
+}
+
 
 .our-location{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-flow: wrap;
-    background-image: url(starter_files/images/location.png);
+    background-image:
+    linear-gradient(
+        rgba(127, 89, 165, 0.5),
+        rgba(127, 89, 165, 0.5)
+    ),
+    url(starter_files/images/location.png);
     width: 33%;
     height: 100%;
-    opacity: 0.6;
     flex: 1;
-    
+    color: white;
 
 }
-.our-location p{
-    opacity: 1;
-    color: white;
-    text-align: center;
-}
+
 footer{
     height: 300px;
-    background-color: mediumpurple;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
