@@ -1,0 +1,119 @@
+body{
+    width: 100%;
+    font-family: 'Open-sans', sans-serif;
+}
+
+header{
+    background-color: royalblue;
+    color: white;
+    padding: 10px;
+    border-bottom: solid skyblue;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.traits{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tags{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: cornflowerblue;
+    padding: 5px;
+    border-radius: 10px;
+    align-items: flex-start;
+   
+}
+
+.adoptions{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+
+.dog {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 32%;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.dog img{
+    
+    width: 100%;
+}
+
+.donate-banner{
+    display: flex;
+    flex-flow: wrap;
+    flex: 1;
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+    background-image:
+    linear-gradient(
+      rgba(68, 0, 255, 0.404),
+      rgba(68, 0, 255, 0.404)
+    ),
+     url(starter_files/images/donate.jpg);
+    width: 33%;
+    height: 100%;
+    color: white;
+
+}
+
+.volunteer-banner{
+    display: flex;
+    flex-flow: wrap;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    background-image:
+    linear-gradient(
+        rgba(68, 0, 255, 0.404),
+        rgba(68, 0, 255, 0.404)
+      ),
+     url(starter_files/images/volunteer.jpg);
+    
+    width: 33%;
+    height: 100%;
+    color: white;
+}
+
+
+.our-location{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+    background-image:
+    linear-gradient(
+        rgba(127, 89, 165, 0.5),
+        rgba(127, 89, 165, 0.5)
+    ),
+    url(starter_files/images/location.png);
+    width: 33%;
+    height: 100%;
+    flex: 1;
+    color: white;
+
+}
+
+footer{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+
